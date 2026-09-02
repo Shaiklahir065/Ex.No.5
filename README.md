@@ -1,53 +1,65 @@
+# EXP 5: COMPARATIVE ANALYSIS OF DIFFERENT TYPES OF PROMPTING PATTERNS AND EXPLAIN WITH VARIOUS TEST SCENARIOS
+## Name: shaik lahir
+## Reg No: 212224240148
 
+# Aim: To test and compare how different pattern models respond to various prompts (broad or unstructured) versus basic prompts (clearer and more refined) across multiple scenarios.  Analyze the quality, accuracy, and depth of the generated responses 
 
-# EXP 5: Comparing Prompting Techniques Through Engineering Problem-Solving Scenarios
+## **AI Tool Used**
 
-# Aim:To compare different prompting techniques and evaluate their effectiveness in solving real-world engineering problems by using a problem selected from a student's 3rd-year or final-year project work. 
+* Google Gemini
 
-### AI Tools Required: 
+---
 
-# EXPERIMENT OVERVIEW
+## **Definition of Prompt Types**
 
-In this experiment, each student/team selects a genuine problem from their ongoing or completed 3rd-year or final-year engineering project.
-The same engineering problem is given to an AI system using different prompting techniques. Students then compare the responses based on relevance, accuracy, completeness, clarity, feasibility and usefulness.
-The purpose is not simply to obtain an AI-generated answer. Students must analyse how changing the prompting technique changes the quality of the solution.
+* **Naïve Prompt**: Simple, vague, or open-ended request without proper guidance.
+* **Structured Prompt**: Detailed, contextual, and precise instruction that narrows down the expected response.
 
-EXPERIMENT PROCEDURE
-Step 1 – Select the Engineering Problem
-Choose one genuine problem from the student's 3rd-year or final-year project.
-Step 2 – Write the Base Prompt
-Write a simple prompt describing the engineering problem without using advanced prompting techniques.
-Step 3 – Apply Different Prompting Techniques
-Rewrite the same problem using at least four different prompting techniques.
-For example:
-Technique 1 – Straightforward Prompt
-Suggest a method to detect crop diseases using computer vision.structure.
-Run Experiments with ChatGPT:
-Input the naïve prompt for each scenario and record the generated response.
-Then input the corresponding basic prompt and capture that response.
-Repeat this process for all selected scenarios to gather a full set of results.
-Evaluate Responses : 
-	Compare how ChatGPT performs when given naïve versus basic prompts and analyze the output based on Quality,Accuracy and Depth. Also analyse does ChatGPT consistently provide better results with basic prompts? Are there scenarios where naïve prompts work equally well?
-Deliverables:
-A table comparing ChatGPT's responses to naïve and basic prompts across all scenarios.
-Analysis of how prompt clarity impacts the quality, accuracy, and depth of ChatGPT’s outputs.
-Summary of findings with insights on how to structure prompts for optimal results when using ChatGPT.
+---
 
-#**STUDENT SUBMISSION FORMAT**
-Each student/team should submit:
-Project title and problem statement
-Selected engineering scenario
-Base prompt
-Minimum four improved prompts using different techniques
-AI-generated outputs
-Comparison/evaluation table
-Analysis and observations
-Final selected prompting technique
-Refined/final prompt
-Engineering validation
+## **Methodology**
 
-**Conclusion**
+1. Identify multiple test scenarios: story generation, factual Q\&A, summarization, and advice.
+2. Prepare two prompt versions for each task (naïve vs structured).
+3. Run the experiment with ChatGPT and capture both outputs.
+4. Evaluate outputs on:
 
-# OUTPUT
+   * **Quality** → Clarity & structure of the response
+   * **Accuracy** → Correctness of information
+   * **Depth** → Completeness & reasoning
 
-# RESULT: The prompt for the above said problem executed successfully
+---
+
+## **Observations**
+
+| **Scenario**   | **Naïve Prompt & Response**                                       | **Structured Prompt & Response**                                                                                                           | **Evaluation**                                   |
+| -------------- | ----------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------ |
+| Story Writing  | Prompt: “Write a story.” → Output: Very short, general story.     | Prompt: “Write a 150-word inspirational story about teamwork.” → Output: Focused, detailed, with a clear moral.                            | Structured prompt gave higher quality and depth. |
+| Factual Answer | Prompt: “Explain about sun.” → Output: Few general facts.         | Prompt: “Explain the sun’s structure, energy source, and role in the solar system.” → Output: Detailed with scientific terms and accuracy. | Structured prompt improved accuracy.             |
+| Summarization  | Prompt: “Summarize pollution.” → Output: Just 1–2 lines, unclear. | Prompt: “Summarize the causes, effects, and solutions of air pollution in under 120 words.” → Output: Organized, clear, and concise.       | Structured prompt gave clarity and depth.        |
+| Advice         | Prompt: “Give me some tips.” → Output: Generic advice.            | Prompt: “Suggest three time-management tips for college students during exams.” → Output: Specific, actionable, and relevant.              | Structured prompt generated practical insights.  |
+
+---
+
+## **Analysis**
+
+* Naïve prompts → produce vague, short, and unfocused responses.
+* Structured prompts → deliver clear, detailed, and more accurate information.
+* Across all scenarios, structured prompts consistently outperformed naïve prompts.
+* Only for very **simple queries**, naïve prompts were acceptable.
+
+---
+
+<img width="518" height="440" alt="image" src="https://github.com/user-attachments/assets/bac89b2d-2ce9-41ab-9f8c-e610c250349e" />
+
+## **Conclusion**
+
+This experiment shows that **prompt clarity directly impacts AI output quality**. By providing structured instructions, ChatGPT responses become **richer, more accurate, and task-oriented**, making structured prompting the preferred approach for practical applications.
+
+---
+
+## **Result**
+
+The comparative analysis of naïve and structured prompts was successfully carried out and the expected results were obtained.
+
+---
